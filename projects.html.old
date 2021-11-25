@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Projects</title>
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Bladespire" />
+    <meta property="og:url" content="http://www.bladespire.com/projects.html" />
+    <meta property="og:image" content="https://www.bladespire.com/static/img/bladespire.png" />
+    <link rel="stylesheet" href="static/css/uikit.css" />
+    <link rel="stylesheet" href="static/css/www.bladespire.com.css" />
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+</head>
+
+<body>
+    <div class="uk-position-top uk-padding uk-container">
+        <div class="uk-navbar-container uk-navbar-transparent uk-padding-large uk-visible@s" uk-navbar>
+            <div class="uk-navbar-center">
+                <div class="uk-navbar-center-left">
+                    <ul class="uk-navbar-nav">
+                        <li>
+                            <a href="https://blog.bladespire.com">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <a href="index.html" class="uk-navbar-item uk-logo">
+                    <img src="static/img/bladespire_white.png" width="125" height="125">
+                </a>
+                <div class="uk-navbar-center-right">
+                    <ul class="uk-navbar-nav">
+                        <li>
+                            <a href="projects.html">Projects</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <h1 class="uk-text-center uk-light">Bladespire</h1>
+        <div class="uk-position-top-center uk-hidden@s">
+            <img src="static/img/bladespire_white.png" width="55" height="55">
+        </div>
+        <div class="uk-child-width-1-2@s uk-grid-match uk-padding-large" uk-grid>
+
+            <div>
+                <div class="uk-card uk-card-secondary uk-card-hover uk-card-body uk-light uk-padding">
+                    <h3 class="uk-card-title">
+                        <a href="https://njsalary.bladespire.com">NJ Public Employee Salary Search</a>
+                    </h3>
+                    <p>A simple Web Application to quickly and easily look up salary information for Public Employees in New
+                        Jersey
+                        <br>Utilizing ASP.NET Core Blazor and deployed on Kubernetes
+                    </p>
+                </div>
+            </div>
+        </div>
+        <p class="uk-position-bottom-center uk-text-muted">&copy; www.bladespire.com 2018. All Rights Reserved.</p>
+    </div>
+
+    </div>
+
+    <div class="uk-offcanvas-content uk-hidden@s">
+        <!-- The whole page content goes here -->
+
+        <!-- This is a button toggling the off-canvas -->
+        <button class="uk-button" uk-toggle="target: #my-id" uk-icon="icon: menu; ratio: 2" type="button"></button>
+        <!-- This is the off-canvas -->
+        <div class="uk-width-small" id="my-id" uk-offcanvas="mode: push;">
+            <div class="uk-offcanvas-bar uk-width-small">
+                <ul class="uk-nav uk-nav-primary">
+
+                    <li class="uk-parent">
+                        <a href="index.html" class="uk-navbar-item uk-logo">
+                            <img src="static/img/bladespire_white.png" width="75" height="75">
+                        </a>
+                        <a href="https://blog.bladespire.com">Blog</a>
+                        <a href="projects.html">Projects</a>
+
+
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <script src="static/js/uikit.min.js"></script>
+        <script src="static/js/uikit-icons.min.js"></script>
+</body>
+
+</html>
